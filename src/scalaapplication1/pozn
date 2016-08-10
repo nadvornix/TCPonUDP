@@ -1,0 +1,31 @@
+
+
+TODO:
+- kontrola jestli posilany/prijmany soubor existuje
+- user-friendly chyba when unable to connect
+
+
+
+
+
+
+
+
+
+
+
+
+
+DAILY WTF:
+- no hashbang support, workaround:
+    #!/bin/sh
+    exec /home/jirka/scala2.9 -deprecation $0 $@
+    !#
+- REPL have no support for CTRL+left/right
+- long compiling (5 sec) (even in REPL)
+- lack of unsigned int
+- half of online doc in scala doc, half in java doc
+- 
+
+
+
